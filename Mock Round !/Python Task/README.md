@@ -1,0 +1,1 @@
+# Task 3 - Python\n\nRun from project root: `python python/analysis.py`\n\nIncludes P1 loading/cleaning/merge, P2 breach and department/team analysis, and P3 chart and CSV exports.\n
