@@ -1,0 +1,41 @@
+"assessment_id,month,course_id,batch,score,attendance_pct",,After Delete Duplicate,,,,,,,,Before Delete Duplicate,,,,,
+"1,Jan,C1,Morning,72,90",,,,,,,,,,,,,,,
+"2,Jan,C2,Evening,45,70",,assessment_id,month,course_id,batch,score,attendance_pct,,,assessment_id,month,course_id,batch,score,attendance_pct
+"3,Jan,C3,Morning,65,85",,1,Jan,C1,Morning,72,90,,,1,Jan,C1,Morning,72,90
+"4,Jan,C4,Weekend,38,60",,2,Jan,C2,Evening,45,70,,,2,Jan,C2,Evening,45,70
+"5,Feb,C1,Evening,80,95",,3,Jan,C3,Morning,65,85,,,3,Jan,C3,Morning,65,85
+"6,Feb,C2,Weekend,55,80",,4,Jan,C4,Weekend,38,60,,,4,Jan,C4,Weekend,38,60
+"7,Feb,C3,Morning,48,75",,5,Feb,C1,Evening,80,95,,,5,Feb,C1,Evening,80,95
+"8,Feb,C4,Evening,68,88",,6,Feb,C2,Weekend,55,80,,,6,Feb,C2,Weekend,55,80
+"9,Mar,C1,Weekend,90,98",,7,Feb,C3,Morning,48,75,,,7,Feb,C3,Morning,48,75
+"10,Mar,C2,Morning,60,82",,8,Feb,C4,Evening,68,88,,,8,Feb,C4,Evening,68,88
+"11,Mar,C3,Evening,75,92",,9,Mar,C1,Weekend,90,98,,,9,Mar,C1,Weekend,90,98
+"12,Mar,C4,Weekend,42,65",,10,Mar,C2,Morning,60,82,,,10,Mar,C2,Morning,60,82
+"12,Mar,C4,Weekend,42,65 ",,11,Mar,C3,Evening,75,92,,,11,Mar,C3,Evening,75,92
+,,12,Mar,C4,Weekend,42,65,,,12,Mar,C4,Weekend,42,65
+,,,,,,,,,,12,Mar,C4,Weekend,42,65 
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,Final Dataset,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,assessment_id,month,course_id,batch,score,attendance_pct,department,pass_flag,,,,,,
+,,1,Jan,C1,Morning,72,90,Business,1,1,,,,,
+,,2,Jan,C2,Evening,45,70,Business,1,1,,,,,
+,,3,Jan,C3,Morning,65,85,Technology,1,1,,,,,
+,,4,Jan,C4,Weekend,38,60,Technology,1,1,,,,,
+,,5,Feb,C1,Evening,80,95,Business,1,1,,,,,
+,,6,Feb,C2,Weekend,55,80,Business,1,1,,,,,
+,,7,Feb,C3,Morning,48,75,Technology,1,1,,,,,
+,,8,Feb,C4,Evening,68,88,Technology,1,1,,,,,
+,,9,Mar,C1,Weekend,90,98,Business,1,1,,,,,
+,,10,Mar,C2,Morning,60,82,Business,1,1,,,,,
+,,11,Mar,C3,Evening,75,92,Technology,1,1,,,,,
+,,12,Mar,C4,Weekend,42,65,Technology,1,1,,,,,
